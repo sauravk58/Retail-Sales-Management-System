@@ -1,0 +1,98 @@
+.sort-dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.sort-trigger {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 12px;
+  background-color: #F3F3F3;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  color: #515162;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+  height: 32px;
+}
+
+.sort-trigger:hover {
+  background-color: #e8e8e8;
+  border-color: #d1d1d1;
+  color: #1a1a1a;
+}
+
+.sort-dropdown.open .sort-trigger {
+  border-color: #515162;
+  background-color: #ffffff;
+}
+
+.sort-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sort-arrow {
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+  margin-left: 4px;
+  color: #515162;
+}
+
+.sort-arrow.rotated {
+  transform: rotate(180deg);
+}
+
+.sort-options {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  min-width: 220px;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  overflow: hidden;
+}
+
+.sort-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 12px;
+  background: none;
+  border: none;
+  color: #515162;
+  font-size: 13px;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.sort-option:hover {
+  background-color: #F3F3F3;
+  color: #1a1a1a;
+}
+
+.sort-option.active {
+  background-color: #F3F3F3;
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+.sort-option svg {
+  color: #515162;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .sort-trigger {
+    min-width: 180px;
+  }
+}

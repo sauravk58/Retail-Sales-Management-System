@@ -1,0 +1,154 @@
+.table-container {
+  width: 100%;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.table-scroll-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.transaction-table {
+  width: 100%;
+  min-width: max-content;
+  border-collapse: collapse;
+}
+
+.transaction-table thead {
+  background-color: #F3F3F3;
+}
+
+.transaction-table th {
+  height: 40px;
+  padding: 0 12px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 500;
+  color: #515162;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.transaction-table th:nth-child(1),
+.transaction-table td:nth-child(1) { width: 156px; min-width: 156px; } /* Transaction ID */
+
+.transaction-table th:nth-child(2),
+.transaction-table td:nth-child(2) { width: 120px; min-width: 120px; }
+
+.transaction-table th:nth-child(3),
+.transaction-table td:nth-child(3) { width: 156px; min-width: 156px; }
+
+.transaction-table th:nth-child(4),
+.transaction-table td:nth-child(4) { width: 168px; min-width: 168px; }
+
+.transaction-table th:nth-child(5),
+.transaction-table td:nth-child(5) { width: 156px; min-width: 156px; }
+
+.transaction-table th:nth-child(6),
+.transaction-table td:nth-child(6) { width: 120px; min-width: 120px; }
+
+.transaction-table th:nth-child(7),
+.transaction-table td:nth-child(7) { width: 120px; min-width: 120px; }
+
+.transaction-table th:nth-child(8),
+.transaction-table td:nth-child(8) { width: 125px; min-width: 125px; }
+
+.transaction-table th:nth-child(9),
+.transaction-table td:nth-child(9) { width: 156px; min-width: 156px; }
+
+.transaction-table th:nth-child(n+10),
+.transaction-table td:nth-child(n+10) { width: 140px; min-width: 140px; }
+
+.transaction-table tbody tr {
+  border-bottom: 1px solid #F3F3F3;
+  transition: background-color 0.1s ease;
+}
+
+.transaction-table tbody tr:hover {
+  background-color: #FAFAFA;
+}
+
+.transaction-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.transaction-table td {
+  height: 40px;
+  padding: 0 12px;
+  font-size: 14px;
+  color: #1a1a1a;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.transaction-table tbody tr td:first-child,
+.transaction-table tbody td:nth-child(1) {
+  color: #515162 !important;
+}
+
+.transaction-table td:nth-child(3) {
+  font-weight: 600;
+}
+
+.transaction-table td:nth-child(8) {
+  font-weight: 600;
+}
+
+.transaction-table td:nth-child(9) {
+  font-weight: 600;
+}
+
+.phone-cell {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.phone-number {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.copy-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  background: none;
+  border: none;
+  color: #999999;
+  cursor: pointer;
+  border-radius: 4px;
+  opacity: 0;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+
+.transaction-table tbody tr:hover .copy-btn {
+  opacity: 1;
+}
+
+.copy-btn:hover {
+  color: #515162;
+  background-color: #F3F3F3;
+}
+
+.table-scroll-wrapper::-webkit-scrollbar {
+  height: 6px;
+}
+
+.table-scroll-wrapper::-webkit-scrollbar-track {
+  background: #F3F3F3;
+}
+
+.table-scroll-wrapper::-webkit-scrollbar-thumb {
+  background: #d1d1d1;
+  border-radius: 3px;
+}
+
+.table-scroll-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #b1b1b1;
+}
