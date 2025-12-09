@@ -59,7 +59,9 @@ A full-stack Retail Sales Management System that enables users to view, search, 
 # Prerequisites
 
 -Node.js (v18 or higher)
+
 -MongoDB Atlas account or local MongoDB installation
+
 -Git
 
 # Clone Repository
