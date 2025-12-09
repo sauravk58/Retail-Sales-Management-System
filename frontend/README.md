@@ -12,10 +12,10 @@ Frontend application for the TruEstate SDE Intern Assignment.
 ## Setup Instructions
 
 1. **Install dependencies:**
-   ```bash
+   ```
    cd frontend
    npm install
-
+```
 Configure environment:
 
 Create .env file (or use the existing one)
@@ -29,11 +29,11 @@ Build for production:
 bash
 npm run build
 Preview production build:
-
-bash
+```
 npm run preview
-Project Structure
-text
+```
+## Project Structure
+```
 frontend/
 ├── src/
 │   ├── components/
@@ -61,6 +61,6 @@ frontend/
 ├── package.json
 ├── vite.config.js
 └── README.md
-
+```
 ---
 
