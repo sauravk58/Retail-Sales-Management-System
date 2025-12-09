@@ -4,6 +4,13 @@
 
 A full-stack Retail Sales Management System that enables users to view, search, filter, sort, and paginate sales transaction data. The application features a responsive UI with sidebar navigation, dynamic filter dropdowns, stats cards, and a data table displaying sales records. Built with React.js frontend and Node.js/Express backend connected to MongoDB database.
 
+
+## Screenshot:
+
+<img width="1361" height="606" alt="image" src="https://github.com/user-attachments/assets/a785f061-bb01-4b52-93e7-e36fd9d465d6" />
+
+<img width="1360" height="604" alt="image" src="https://github.com/user-attachments/assets/d7afb62f-9554-4144-a644-0e2c620cfeeb" />
+
 ---
 
 ## 2. Tech Stack
