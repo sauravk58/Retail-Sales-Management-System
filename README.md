@@ -27,25 +27,32 @@ A full-stack Retail Sales Management System that enables users to view, search, 
 
 ## 4. Filter Implementation Summary
 
-Multi-select Filters: Customer Region, Gender, Product Category, Tags, Payment Method
-Range Filters: Age Range (min/max), Date Range (from/to)
-Preset Options: Quick selection for common age groups and date ranges
-Select All / Clear All: Bulk selection controls
-Combined Query: Filters combined with AND logic using MongoDB operators
+- **Multi-select Filters**: Customer Region, Gender, Product Category, Tags, Payment Method
+
+- **Range Filters**: Age Range (min/max), Date Range (from/to)
+
+- **Preset Options**: Quick selection for common age groups and date ranges
+
+- **Select All / Clear All**: Bulk selection controls
+
+- **Combined Query**: Filters combined with AND logic using MongoDB operators
 
 ## 5. Sorting Implementation Summary
 
-Sortable Fields: Customer Name, Date, Quantity, Total Amount
-Sort Orders: Ascending and Descending
-Default Sort: Date (Newest First)
-Server-side Sorting: Using MongoDB .sort()
+- **Sortable Fields**: Customer Name, Date, Quantity, Total Amount
+
+- **Sort Orders**: Ascending and Descending
+
+- **Default Sort**: Date (Newest First)
+
+- **Server-side Sorting**: Using MongoDB .sort()
 
 ## 6. Pagination Implementation Summary
 
-Server-side Pagination: MongoDB .skip() and .limit()
-Page Size: 10 items per page
-Navigation: First, Previous, Page Numbers, Next, Last
-Auto Reset: Page resets to 1 on filter/search/sort change
+- **Server-side Pagination**: MongoDB .skip() and .limit()
+- **Page Size**: 10 items per page
+- **Navigation**: First, Previous, Page Numbers, Next, Last
+- **Auto Reset**: Page resets to 1 on filter/search/sort change
 
 ## 7. Setup Instructions (GitHub-Ready)
 
